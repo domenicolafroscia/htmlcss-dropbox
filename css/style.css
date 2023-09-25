@@ -13,3 +13,57 @@ img {
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* HEADER */
+.container {
+    max-width: 70%;
+}
+
+nav {
+    /* debug */
+    border: 1px solid black;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-1 {
+    /* debug */
+    background-color: red;
+    border: 1px solid black;
+    height: 50px;
+    width: 500px;
+}
+
+.hero {
+    background-color: #B4D0E7;
+    /* debug */
+    padding: 30px 50px 0px 480px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.section-hero {
+    display: flex;
+}
+
+.hero-1 {
+    margin-right: 10px;
+    /* debug */
+    background-color: green;
+    height: 200px;
+    width: 180px;
+    border: 1px solid black;
+}
+
+.hero-2 {
+    /* debug */
+    background-color: green;
+    height: 200px;
+    width: 420px;
+    border: 1px solid black;
+}
