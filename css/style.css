@@ -29,19 +29,28 @@ body {
 .section-main {
     padding: 10px;
     margin-bottom: 30px;
-    /* debug*/
-    border: 1px solid black;
+    padding-top: 60px;
 }
 
 .h2-1 {
     padding: 10px 0 20px 0;
 }
 
+.btn-blue {
+    text-decoration: none;
+    color: white;
+    background-color: #0061FF;
+    padding: 5px 10px;
+}
+
 /* HEADER */
 /* nav */
 nav {
-    /* debug */
-    border: 1px solid black;
+    height: 50px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 200;
 }
 
 .flex {
@@ -49,22 +58,30 @@ nav {
     justify-content: space-between;
 }
 
-.nav-1 {
+.nav-left {
     text-align: left;
-    /* debug */
-    background-color: red;
-    border: 1px solid black;
-    height: 50px;
-    width: 50%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
 
-.nav-2 {
+.link-nav {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-right {
     text-align: right;
-    /* debug */
-    background-color: red;
-    border: 1px solid black;
-    height: 50px;
-    width: 50%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.link-nav-blue {
+    padding-left: 10px;
 }
 
 /* hero */
@@ -72,7 +89,7 @@ nav {
     background-color: #B4D0E7;
     margin-bottom: 40px;
     /* debug */
-    padding: 30px 50px 0px;
+    padding: 100px 50px 0px;
     border: 1px solid black;
 }
 
@@ -82,23 +99,34 @@ h1 {
 
 .section-hero {
     display: flex;
+    padding-top: 30px;
+    position: relative;
 }
 
 .hero-1 {
-    margin-right: 10px;
-    /* debug */
-    background-color: green;
-    height: 200px;
+    margin-right: 20px;
     width: 40%;
-    border: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.p-hero {
+    padding-bottom: 20px;
+}
+
+.p-hero-1 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.arrow-down {
+    font-size: 3rem;
 }
 
 .hero-2 {
-    /* debug */
-    background-color: green;
-    height: 200px;
     width: 60%;
-    border: 1px solid black;
+    position: absolute;
+    right: 0;
+    top: 50px;
 }
 
 /* MAIN */
