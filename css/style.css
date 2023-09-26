@@ -139,6 +139,11 @@ h1 {
 
 .arrow-down {
     font-size: 2rem;
+    color: black;
+}
+
+.li-arrow-down {
+    list-style-type: none;
 }
 
 .hero-2 {
@@ -397,7 +402,6 @@ h1 {
 
 .free-trial {
     background-color: #B4D0E7;
-
 }
 
 .free-trial-1 {
@@ -441,12 +445,67 @@ h1 {
 
 /* section-6 */
 .requests {
-    margin: 60px 0;
-    /* debug */
-    background-color: gray;
+    margin: 100px 0;
     width: 100%;
-    height: 300px;
-    border: 1px solid black;
+    background-color: white;
+}
+
+.h2-faq {
+    margin-bottom: 30px;
+}
+
+.hr-faq {
+    background: #A5A5A5;
+    border: #A5A5A5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.flex-faq {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.angle-down {
+    padding-right: 30px;
+}
+
+.angle-up {
+    position: absolute;
+    right: 591px;
+    z-index: -1;
+}
+
+.color-faq:hover .angle-down {
+    display: none;
+}
+
+.color-faq:hover .angle-up {
+    z-index: 1;
+}
+
+.answers-faq {
+    font-size: .8rem;
+}
+
+.pop-up-faq-1 {
+    padding-top: 30px;
+    display: none;
+    position: relative;
+}
+
+.color-faq:hover .pop-up-faq-1 {
+    display: block;
+}
+
+.padding-angle-down {
+    padding-left: 250px;
+}
+
+.color-faq {
+    color: black;
+    text-decoration: none;
 }
 
 /* FOOTER */
