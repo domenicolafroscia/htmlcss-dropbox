@@ -309,40 +309,134 @@ h1 {
     justify-content: space-between;
 }
 
+.row-3 {
+    display: flex;
+}
+
 .brand {
     width: calc(100% / 3);
-    /* debug */
-    background-color: darkmagenta;
-    height: 494px;
-    border: 1px solid black;
 }
+
+.row-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-2 {
+    width: calc(100% / 2);
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+.card-1 {
+    background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
+}
+
+.card-2 {
+    background-color: #61082B;
+}
+
+.card-3 {
+    background-color: #0093CE;
+}
+
+.card-4 {
+    background-color: #FF1C1C;
+}
+
+.card-5 {
+    background-color: #D5001F;    
+}
+
+.card-6 {
+    background-color: #B4D0E7;
+}
+
+.card-7 {
+    background-color: #0D2481;
+}
+
+.card-8 {
+    background-color: #FFD830;
+}
+
+.invert {
+    filter: invert(100%); 
+    -webkit-filter: invert(100%);
+}
+
+.central-card { 
+    background-color: #F5F5F5;
+}
+
+.container-3 {
+    padding: 30px;
+}
+
+.logo-designit {
+    width: 200px;
+    height: 60px;
+}
+
+.hr-designit {
+    background: #D6D6D9;
+    border: #D6D6D9;
+    height: 1px;
+    width: 80px;
+    margin: 30px 0;
+}
+
+.p-designit {
+    padding-bottom: 40px;
+    font-size: .8rem;
+} 
 
 .free-trial {
     background-color: #B4D0E7;
-    /* debug */
-    border: 1px solid black;
+
 }
 
 .free-trial-1 {
-    /* debug */
-    background-color: darkgoldenrod;
-    height: 235px;
     width: 70%;
-    border: 1px solid black;
+    display: flex;
+    align-self: center;
+}
+
+.h2-brand {
+    color: #61082B;
 }
 
 .free-trial-2 {
-    /* debug */
-    background-color: darkgoldenrod;
-    height: 235px;
     width: 30%;
-    border: 1px solid black;
+    display: flex;
+    align-self: center;
 }
 
 .free-trial-3 {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
+    padding: 80px 0;
+}
+
+.btn-white {
+    text-decoration: none;
+    color: black;
+    font-size: .8rem;
+}
+
+.btn-white-main {
+    background-color: white;
+    list-style-type: none;
+    height: 35px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* section-6 */
