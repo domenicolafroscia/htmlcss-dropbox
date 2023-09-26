@@ -114,6 +114,8 @@ h1 {
     margin-right: 20px;
     width: 40%;
     padding-bottom: 20px;
+    font-size: .95rem;
+    padding-top: 30px;
 }
 
 .p-hero {
@@ -136,7 +138,7 @@ h1 {
 }
 
 .arrow-down {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .hero-2 {
@@ -242,49 +244,62 @@ h1 {
 
 /* section-2 */
 .partner-dropbox {
-    /* debug */
-    background-color: aqua;
     width: 60%;
-    height: 350px;
-    border: 1px solid black;
 }
 
 .partner-dropbox-1 {
-    /* debug */
-    background-color: aqua;
     width: 40%;
-    height: 350px;
-    border: 1px solid black;
+    font-size: .8rem;
+    padding-top: 40px;
 }
 
 .flex-1 {
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 3rem;
+}
+
+.p-partner-dropbox {
+    padding: 20px 0;
+}
+
+.btn-black {
+    text-decoration: none;
+    color: black;
+    font-size: .8rem;
+}
+
+.btn-black-main {
+    list-style-type: none;
+    height: 30px;
+    width: 125px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* section-3 */
 .row-1 {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 .col-1 {
-    width: calc(100% / 3 - 2rem / 3);
-    /* debug */
-    background-color: brown;
-    height: 350px;
-    border: 1px solid black;
+    width: calc(100% / 3 - 6rem / 3);
+    text-align: justify;
+}
+
+.operation-dropbox-business {
+    padding: 20px 0;
+    font-size: .8rem;
 }
 
 /* section-4 */
-.section-4 {
-    /* debug */
-    background-color: grey;
-    border: 1px solid black;
-    width: 100%;
-    height: 150px;
+.information-our-clients {
+    padding: 40px 0;
+    font-size: .8rem;
 }
 
 /* section-5 */
